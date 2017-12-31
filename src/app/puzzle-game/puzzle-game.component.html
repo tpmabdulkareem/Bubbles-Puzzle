@@ -1,0 +1,24 @@
+<div class="body">
+  <div class="wrapper">
+<div class="header">
+  <img src="../../assets/header.png" >
+</div>
+<div class="container">
+<div id="div1" (drop)="drop($event)" (dragover)="allowDrop($event)">
+  <img id="drag1" src="{{images[0].imageurl}}" draggable="true" (dragstart)="drag($event)" />
+</div>
+
+<div id="div2" (drop)="drop($event)" (dragover)="allowDrop($event)">
+  <img id="drag2" src="{{images[2].imageurl}}" draggable="true"(dragstart)="drag($event)" />
+</div>
+<br>
+<div id="div3" (drop)="drop($event)" (dragover)="allowDrop($event)">
+  <img id="drag3" src="{{images[1].imageurl}}"  draggable="true" (dragstart)="drag($event)" />
+</div>
+
+<div id="div4" (drop)="drop($event)" (dragover)="allowDrop($event)">
+  <img id="drag4" src="{{images[3].imageurl}}"  draggable="true"(dragstart)="drag($event)" />
+</div>
+</div>
+</div>
+</div>

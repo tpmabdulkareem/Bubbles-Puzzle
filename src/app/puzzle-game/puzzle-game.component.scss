@@ -1,0 +1,12 @@
+.body{background:url(../../assets/bgpuzzle.jpg);height:100vh;}
+.container{display: table;background: rgba(51, 49, 49, 0.4); padding:20px; margin:auto;}
+#div1, #div2 ,#div3,#div4{
+    width:150px;
+    height:150px;
+ 
+    // border:1px solid #aaaaaa;
+}
+.header {margin-left:35%;}
+.wrapper{ margin:auto; width:90%;}
+#div1,#div2{display :inline-block;}
+ #div3,#div4{display :inline-block;margin-top:-4px;}
